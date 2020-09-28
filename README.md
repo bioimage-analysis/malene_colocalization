@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bioimage-analysis/malene_colocalization/master)
+
 Assessing Colocalization - Malene E. Lindholm
 ==================================
 
@@ -7,7 +9,9 @@ Assessing Colocalization - Malene E. Lindholm
 ## Binder (to try the jupyter notebook online)
 
 1 - Click the on lunch|binder button
-2 - Start the jupyter notebook (colocalization.ipynb)
+
+2 - Start the jupyter notebook  (colocalization.ipynb)
+
 3 - run cells by click the run button on the top menu or 'shift + enter'
 
 ## Setup on your desktop
