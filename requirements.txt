@@ -4,6 +4,5 @@ matplotlib == 2.1
 scikit-image == 0.16
 pandas == 1.0.3
 scikit-image == 0.16
-pip:
 czifile
 glob2
