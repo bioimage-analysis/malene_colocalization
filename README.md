@@ -4,8 +4,13 @@ Assessing Colocalization - Malene E. Lindholm
 ### Mono- and biallelic protein truncating variants in alpha-actinin 2 cause cardiomyopathy through distinct mechanisms
 
 
+## Binder (to try the jupyter notebook online)
 
-## Setup
+1 - Click the on lunch|binder button
+2 - Start the jupyter notebook (colocalization.ipynb)
+3 - run cells by click the run button on the top menu or 'shift + enter'
+
+## Setup on your desktop
 1 - Download [Anaconda](https://www.anaconda.com/download/), a free installer that includes Python and all the common scientific packages.
 Be sure to download Anaconda for Python 3.6 or 3.7 for the appropriate operating system.
 Follow the on-screen instructions for installation. When prompted, be sure to "Install for me only."
@@ -25,10 +30,10 @@ git clone https://github.com/bioimage-analysis/colocalization-malene
 $ cd /../colocalization-malene/
 ```
 
-4- Create a conda environment with the dependency:
+4- Create a conda environment with an Ipython kernel:
 
 ```
-$ conda env create -f environment.yml
+$ conda env name_env python=3 ipykernel
 ```
 
 (To install python / conda on a Window environment you can follow this [LINK](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444))
@@ -43,10 +48,10 @@ $ conda env create -f environment.yml
 $ conda activate malene
 ```
 
-6- To go back to your master environment:
+6- Install dependency from the requirements.txt :
 
 ```
-$ conda deactivate
+$ pip install -r requirements.txt
 ```
 
 (The installation of python-bioformats / javabridge might fail, if so, download Java Dev. kit, [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html))
