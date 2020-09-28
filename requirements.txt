@@ -2,7 +2,8 @@ numpy
 scipy
 matplotlib
 pandas
-scikit-image 
+scikit-image
 tifffile
 czifile
 glob2
+seaborn
